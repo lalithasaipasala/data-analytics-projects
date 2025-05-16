@@ -26,7 +26,7 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 | 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
 |------------|---------|----------|----------------|
-| 📈 [Sales Dashboard](https://github.com/lalithasaipasala/excel-sales-dashboard) | Feb 2025 | Excel | Created pivot tables, slicers, and charts to visualize regional and product-based sales. |
+| 📈 [Accident BY Year](https://github.com/lalithasaipasala/city-accident-analysis-excel) | Feb 2025 | Excel | Created pivot tables, slicers, and charts to visualize regional. |
 
 ---
 
