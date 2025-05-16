@@ -26,8 +26,10 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 | 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
 |------------|---------|----------|----------------|
-| 📈 [Accident BY Year](https://github.com/lalithasaipasala/city-accident-analysis-excel) | Feb 2025 | Excel | Created pivot tables, slicers, and charts to visualize regional. |
-
+| 📈 [City-Wise Accident Analysis (1948–2022)](https://github.com/lalithasaipasala/city-accident-analysis-excel) |multiple cities over 74 years, analyzing patterns using Excel pivot tables and visualizations |
+ 📊 [Ecommerce Sales Dashboard (Excel)](https://github.com/lalithasaipasala/city-accident-analysis-excel) |visualize ecommerce sales performance and KPIs such as total revenue, monthly sales trends, top-performing products, and customer segments|
+| [Chicago Crime Dashboard(Excel)](https://github.com/lalithasaipasala/city-accident-analysis-excel) |visualize ecommerce sales performance and KPIs such as total revenue, monthly sales trends, top-performing products, and customer segments|
+| ⚡[Electric Vehicle Data Analysis (Excel Dashboard)]()|Electric Vehicle (EV) registrations and trends across the U.S. It includes vehicle types, eligibility for clean fuel programs, and electric range statistics.|
 ---
 
 ## 📊 Tableau Projects
