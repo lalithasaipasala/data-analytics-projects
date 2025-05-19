@@ -13,12 +13,14 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 ---
 
-## 🧩 SQL Projects
+## 🛢️ SQL Projects
 
-| 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
-|------------|---------|----------|----------------|
-| 🗃️ [Retail Store Analysis](https://github.com/lalithasaipasala/sql-retail-analysis) | March 2025 | SQL | Performed data cleaning and complex queries to analyze retail store sales and performance. |
-| 📊 [HR Database Insights](https://github.com/lalithasaipasala/sql-hr-insights) | Feb 2025 | SQL, PostgreSQL | Wrote advanced joins and window functions to derive employee attrition insights. |
+| 📂 Project | 🧰 Tools | 📄 Description |
+|------------|----------|----------------|
+| 🏦 [Bank Churn Analysis](https://github.com/lalithasaipasala/Sql_Projects/blob/main/Bank%20Churn%20-%20SQL%20Project-20250519T163349Z-1-001.zip) | MS SQL Server | Analyzed customer financial behavior, credit risk, and segmentation to drive personalized banking strategies and improve retention. |
+| 💳 [Bank Loan Project](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | MS SQL Server | Explored bank loan data to assess credit risk, analyze customer profiles, and identify patterns that influence loan approvals. |
+| 🗳️ [Indian Elections Result Analysis 2024](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | SQL | Queried structured voting data to uncover constituency-level insights, vote shares, and trends in the 2024 General Elections. |
+
 
 ---
 
