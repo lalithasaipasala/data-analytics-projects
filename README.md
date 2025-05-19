@@ -22,14 +22,6 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 |  📊 [Chicago Crime Dashboard(Excel)](https://github.com/lalithasaipasala/city-accident-analysis-excel) |visualize ecommerce sales performance and KPIs such as total revenue, monthly sales trends, top-performing products, and customer segments|
 | ⚡[Electric Vehicle Data Analysis (Excel Dashboard)]()|Electric Vehicle (EV) registrations and trends across the U.S. It includes vehicle types, eligibility for clean fuel programs, and electric range statistics.|
 ---
-
-## 📊 Tableau Projects
-
-| 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
-|------------|---------|----------|----------------|
-| 📌 [Superstore Sales Analysis](https://github.com/lalithasaipasala/tableau-superstore) | Jan 2025 | Tableau | Designed an interactive dashboard to explore sales and profit across regions and categories. |
-
----
 ## 📊 Power BI Projects
 
 | 📂 Project | 🧰 Tools | 📄 Description |
@@ -42,6 +34,16 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 | 🌍 [Regional Sales Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Compared CY and PY sales across regions with profit and quantity metrics. |
 | 🎧 [Spotify Listening Insights](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Spotify Data | Visualized personal streaming history: albums, artists, tracks, and trends. |
 
+
+---
+
+
+
+## 📊 Tableau Projects
+
+| 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
+|------------|---------|----------|----------------|
+| 📌 [Superstore Sales Analysis](https://github.com/lalithasaipasala/tableau-superstore) | Jan 2025 | Tableau | Designed an interactive dashboard to explore sales and profit across regions and categories. |
 
 ---
 
