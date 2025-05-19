@@ -39,18 +39,18 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 | 📌 [Superstore Sales Analysis](https://github.com/lalithasaipasala/tableau-superstore) | Jan 2025 | Tableau | Designed an interactive dashboard to explore sales and profit across regions and categories. |
 
 ---
-
 ## 📊 Power BI Projects
 
-| 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
-|------------|---------|----------|----------------|
-| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) |  Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
-| 📉 [Telecom Churn Prediction](https://github.com/lalithasaipasala/telecom-churn)| Created a dashboard showing churn risk and demographics using ML outputs. |
-| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
-| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
-| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
-| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
-| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
+| 📂 Project | 🧰 Tools | 📄 Description |
+|------------|----------|----------------|
+| 🚖 [Uber Trip Analysis](https://github.com/yourusername/uber-trip-dashboard) | Power BI, Excel | Analyzed trip volume, distance, time, and vehicle types for Brooklyn using Uber data. |
+| 🗳️ [Indian Election Dashboard - Fatehpur](https://github.com/yourusername/indian-election-dashboard) | Power BI | Visualized vote counts, winner, runner-up, and EVM/postal splits for a constituency. |
+| 🛒 [Amazon Sales Analysis](https://github.com/yourusername/amazon-sales-dashboard) | Power BI, Excel | Sales and product analysis with YTD/QTD performance, reviews, and top categories. |
+| 💵 [Financial Complaints Overview](https://github.com/yourusername/financial-complaints-dashboard) | Power BI | Tracked 75K+ complaints by issue, product, resolution rate, and monthly trends. |
+| 🏥 [Healthcare Screening Analysis](https://github.com/yourusername/healthcare-dashboard) | Power BI | Dashboard showing member screening by region, ethnicity, race, and language. |
+| 🌍 [Regional Sales Dashboard](https://github.com/yourusername/sales-overview-dashboard) | Power BI, Excel | Compared CY and PY sales across regions with profit and quantity metrics. |
+| 🎧 [Spotify Listening Insights](https://github.com/yourusername/spotify-dashboard) | Power BI, Spotify Data | Visualized personal streaming history: albums, artists, tracks, and trends. |
+
 
 ---
 
