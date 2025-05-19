@@ -44,8 +44,13 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 | 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
 |------------|---------|----------|----------------|
-| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | April 2025 | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
-| 📉 [Telecom Churn Prediction](https://github.com/lalithasaipasala/telecom-churn) | March 2025 | Power BI, Python | Created a dashboard showing churn risk and demographics using ML outputs. |
+| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) |  Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
+| 📉 [Telecom Churn Prediction](https://github.com/lalithasaipasala/telecom-churn)| Created a dashboard showing churn risk and demographics using ML outputs. |
+| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
+| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
+| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
+| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
+| 📦 [Blinkit Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales performance dashboard with category filters, KPIs, and dynamic charts. |
 
 ---
 
