@@ -43,13 +43,13 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 | 📂 Project | 🧰 Tools | 📄 Description |
 |------------|----------|----------------|
-| 🚖 [Uber Trip Analysis](https://github.com/yourusername/uber-trip-dashboard) | Power BI, Excel | Analyzed trip volume, distance, time, and vehicle types for Brooklyn using Uber data. |
-| 🗳️ [Indian Election Dashboard - Fatehpur](https://github.com/yourusername/indian-election-dashboard) | Power BI | Visualized vote counts, winner, runner-up, and EVM/postal splits for a constituency. |
-| 🛒 [Amazon Sales Analysis](https://github.com/yourusername/amazon-sales-dashboard) | Power BI, Excel | Sales and product analysis with YTD/QTD performance, reviews, and top categories. |
-| 💵 [Financial Complaints Overview](https://github.com/yourusername/financial-complaints-dashboard) | Power BI | Tracked 75K+ complaints by issue, product, resolution rate, and monthly trends. |
-| 🏥 [Healthcare Screening Analysis](https://github.com/yourusername/healthcare-dashboard) | Power BI | Dashboard showing member screening by region, ethnicity, race, and language. |
-| 🌍 [Regional Sales Dashboard](https://github.com/yourusername/sales-overview-dashboard) | Power BI, Excel | Compared CY and PY sales across regions with profit and quantity metrics. |
-| 🎧 [Spotify Listening Insights](https://github.com/yourusername/spotify-dashboard) | Power BI, Spotify Data | Visualized personal streaming history: albums, artists, tracks, and trends. |
+| 🚖 [Uber Trip Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Analyzed trip volume, distance, time, and vehicle types for Brooklyn using Uber data. |
+| 🗳️ [Indian Election Dashboard - Fatehpur](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI | Visualized vote counts, winner, runner-up, and EVM/postal splits for a constituency. |
+| 🛒 [Amazon Sales Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales and product analysis with YTD/QTD performance, reviews, and top categories. |
+| 💵 [Financial Complaints Overview](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI | Tracked 75K+ complaints by issue, product, resolution rate, and monthly trends. |
+| 🏥 [Healthcare Screening Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI | Dashboard showing member screening by region, ethnicity, race, and language. |
+| 🌍 [Regional Sales Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Compared CY and PY sales across regions with profit and quantity metrics. |
+| 🎧 [Spotify Listening Insights](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Spotify Data | Visualized personal streaming history: albums, artists, tracks, and trends. |
 
 
 ---
