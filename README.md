@@ -5,22 +5,11 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 ---
 
 ## 🗂️ Table of Contents
-- [SQL Projects](#sql-projects)
 - [Excel Projects](#excel-projects)
 - [Tableau Projects](#tableau-projects)
 - [Power BI Projects](#power-bi-projects)
+- [SQL Projects](#sql-projects)
 - [Python Projects](#python-projects)
-
----
-
-## 🛢️ SQL Projects
-
-| 📂 Project | 🧰 Tools | 📄 Description |
-|------------|----------|----------------|
-| 🏦 [Bank Churn Analysis](https://github.com/lalithasaipasala/Sql_Projects/blob/main/Bank%20Churn%20-%20SQL%20Project-20250519T163349Z-1-001.zip) | MS SQL Server | Analyzed customer financial behavior, credit risk, and segmentation to drive personalized banking strategies and improve retention. |
-| 💳 [Bank Loan Project](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | MS SQL Server | Explored bank loan data to assess credit risk, analyze customer profiles, and identify patterns that influence loan approvals. |
-| 🗳️ [Indian Elections Result Analysis 2024](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | SQL | Queried structured voting data to uncover constituency-level insights, vote shares, and trends in the 2024 General Elections. |
-
 
 ---
 
@@ -52,6 +41,17 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 | 🏥 [Healthcare Screening Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI | Dashboard showing member screening by region, ethnicity, race, and language. |
 | 🌍 [Regional Sales Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Compared CY and PY sales across regions with profit and quantity metrics. |
 | 🎧 [Spotify Listening Insights](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Spotify Data | Visualized personal streaming history: albums, artists, tracks, and trends. |
+
+
+---
+
+## 🛢️ SQL Projects
+
+| 📂 Project | 🧰 Tools | 📄 Description |
+|------------|----------|----------------|
+| 🏦 [Bank Churn Analysis](https://github.com/lalithasaipasala/Sql_Projects/blob/main/Bank%20Churn%20-%20SQL%20Project-20250519T163349Z-1-001.zip) | MS SQL Server | Analyzed customer financial behavior, credit risk, and segmentation to drive personalized banking strategies and improve retention. |
+| 💳 [Bank Loan Project](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | MS SQL Server | Explored bank loan data to assess credit risk, analyze customer profiles, and identify patterns that influence loan approvals. |
+| 🗳️ [Indian Elections Result Analysis 2024](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | SQL | Queried structured voting data to uncover constituency-level insights, vote shares, and trends in the 2024 General Elections. |
 
 
 ---
