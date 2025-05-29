@@ -37,14 +37,6 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 ---
 
-
-
-## 📊 Tableau Projects
-
-| 📂 Project | 📅 Date | 🧰 Tools | 📄 Description |
-|------------|---------|----------|----------------|
-| 📌 [Superstore Sales Analysis](https://github.com/lalithasaipasala/tableau-superstore) | Jan 2025 | Tableau | Designed an interactive dashboard to explore sales and profit across regions and categories. |
-
 ---
 
 ## 🛢️ SQL Projects
