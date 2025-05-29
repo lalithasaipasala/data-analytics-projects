@@ -62,5 +62,5 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 | 📂 Project | 🧰 Tools | 📄 Description |
 |------------|----------|----------------|
-|⚡Customer Churn Prediction (Random Forest – Python & PySpark) | Binary classification project using 100,000 telecom customer records to predict churn. Compared scikit-learn and PySpark MLlib implementations, evaluating accuracy, training time, and scalability.
+|⚡[Customer Churn Prediction] (https://github.com/lalithasaipasala/city-accident-analysis-excel/edit/main/README.md) | Binary classification project using 100,000 telecom customer records to predict churn. Compared scikit-learn and PySpark MLlib implementations, evaluating accuracy, training time, and scalability.
 |
