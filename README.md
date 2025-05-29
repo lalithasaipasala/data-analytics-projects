@@ -6,7 +6,6 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 ## 🗂️ Table of Contents
 - [Excel Projects](https://github.com/lalithasaipasala/city-accident-analysis-excel)
-- [Tableau Projects](#tableau-projects)
 - [Power BI Projects](https://github.com/lalithasaipasala/blinkit-dashboard)
 - [SQL Projects](https://github.com/lalithasaipasala/Sql_Projects/blob/main/Bank%20Churn%20-%20SQL%20Project-20250519T163349Z-1-001.zip)
 - [Python Projects](#python-projects)
