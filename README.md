@@ -62,6 +62,5 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 | 📂 Project | 🧰 Tools | 📄 Description |
 |------------|----------|----------------|
-| 🤖 [Customer Segmentation](https://github.com/lalithasaipasala/customer-segmentation) | Python, Pandas, Scikit-learn | Used K-means clustering for identifying customer segments in marketing data. |
-| 🔍 [Data Cleaning Automation](https://github.com/lalithasaipasala/data-cleaning-tool) | Python | Automated missing value treatment and standardization for structured datasets. |
+|
 |
