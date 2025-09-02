@@ -26,7 +26,6 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 | 📂 Project | 🧰 Tools | 📄 Description |
 |------------|----------|----------------|
 | 🚖 [Uber Trip Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Analyzed trip volume, distance, time, and vehicle types for Brooklyn using Uber data. |
-| 🗳️ [Indian Election Dashboard - Fatehpur](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI | Visualized vote counts, winner, runner-up, and EVM/postal splits for a constituency. |
 | 🛒 [Amazon Sales Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Sales and product analysis with YTD/QTD performance, reviews, and top categories. |
 | 💵 [Financial Complaints Overview](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI | Tracked 75K+ complaints by issue, product, resolution rate, and monthly trends. |
 | 🏥 [Healthcare Screening Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI | Dashboard showing member screening by region, ethnicity, race, and language. |
@@ -44,8 +43,6 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 |------------|----------|----------------|
 | 🏦 [Bank Churn Analysis](https://github.com/lalithasaipasala/Sql_Projects/blob/main/Bank%20Churn%20-%20SQL%20Project-20250519T163349Z-1-001.zip) | MS SQL Server | Analyzed customer financial behavior, credit risk, and segmentation to drive personalized banking strategies and improve retention. |
 | 💳 [Bank Loan Project](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | MS SQL Server | Explored bank loan data to assess credit risk, analyze customer profiles, and identify patterns that influence loan approvals. |
-| 🗳️ [Indian Elections Result Analysis 2024](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | SQL | Queried structured voting data to uncover constituency-level insights, vote shares, and trends in the 2024 General Elections. |
-
 
 ---
 
