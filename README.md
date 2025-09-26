@@ -46,7 +46,7 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 
 ---
 
-## 🐍 Python Projects
+## 🐍 Python/Machinelearning  Projects
 
 | 📂 Project | 🧰 Tools | 📄 Description |
 |------------|----------|----------------|
