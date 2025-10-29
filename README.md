@@ -5,21 +5,12 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 ---
 
 ## 🗂️ Table of Contents
-- [Excel Projects](https://github.com/lalithasaipasala/city-accident-analysis-excel)
 - [Power BI Projects](https://github.com/lalithasaipasala/blinkit-dashboard)
 - [SQL Projects](https://github.com/lalithasaipasala/Sql_Projects/blob/main/Bank%20Churn%20-%20SQL%20Project-20250519T163349Z-1-001.zip)
 - [Python Projects](#python-projects)
 
 ---
-
-## 📊 Excel Projects
-
-| 📂 Project | 📅 Date | 
-|------------|---------|
-| 📈 [City-Wise Accident Analysis (1948–2022)](https://github.com/lalithasaipasala/city-accident-analysis-excel) |multiple cities over 74 years, analyzing patterns using Excel pivot tables and visualizations |
- 📊 [Ecommerce Sales Dashboard (Excel)](https://github.com/lalithasaipasala/city-accident-analysis-excel) |visualize ecommerce sales performance and KPIs such as total revenue, monthly sales trends, top-performing products, and customer segments|
-|  📊 [Chicago Crime Dashboard(Excel)](https://github.com/lalithasaipasala/city-accident-analysis-excel) |visualize ecommerce sales performance and KPIs such as total revenue, monthly sales trends, top-performing products, and customer segments|
-| ⚡[Electric Vehicle Data Analysis (Excel Dashboard)]()|Electric Vehicle (EV) registrations and trends across the U.S. It includes vehicle types, eligibility for clean fuel programs, and electric range statistics.|
+ range statistics.|
 ---
 ## 📊 Power BI Projects
 
