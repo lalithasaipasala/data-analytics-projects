@@ -36,11 +36,11 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 | 💳 [Bank Loan Project](https://github.com/lalithasaipasala/Sql_Projects/blob/main/India%20Elections%20Analysis-20250519T163359Z-1-001.zip) | MS SQL Server | Explored bank loan data to assess credit risk, analyze customer profiles, and identify patterns that influence loan approvals. |
 
 ---
-## 📊 Power BI Projects
+## 📊 Excel  Projects
 
 | 📂 Project | 🧰 Tools | 📄 Description |
 |------------|----------|----------------|
-| 🚖 [Chicago Crime Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Analyzed trip volume, distance, time, and vehicle types for Brooklyn using Uber data. |
+| 🚖 [Chicago Crime Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) |  Excel |Crime Analysis  |
 |
 
 ---
