@@ -45,42 +45,41 @@ body {
   font-size: 1.05rem;
 }
 
-/* ── Filter tabs ─────────────────────────────────────────────────────────── */
-.filter-bar {
+/* ── Portfolio root ───────────────────────────────────────────────────────── */
+.portfolio-root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  padding: 0 24px 40px;
+  flex-direction: column;
+  gap: 72px;
 }
 
-.filter-btn {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  color: var(--muted);
-  padding: 8px 20px;
-  border-radius: 50px;
-  cursor: pointer;
-  font-size: 0.875rem;
-  font-weight: 500;
-  transition: var(--transition);
+/* ── Category section ────────────────────────────────────────────────────── */
+.category-section {}
+
+.category-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
 }
 
-.filter-btn:hover,
-.filter-btn.active {
-  background: rgba(167,139,250,0.15);
-  border-color: #a78bfa;
-  color: #a78bfa;
+.cat-icon {
+  font-size: 1.5rem;
 }
 
-/* ── Project grid ────────────────────────────────────────────────────────── */
-.projects-grid {
+/* ── Category card grid ──────────────────────────────────────────────────── */
+.category-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 24px 80px;
 }
 
 /* ── Project card ────────────────────────────────────────────────────────── */
