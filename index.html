@@ -10,87 +10,12 @@
 
   <!-- ── Site Header ─────────────────────────────────────────────── -->
   <header class="site-header">
-    <h1>📊 Data Analytics Portfolio</h1>
-    <p>Click any project to explore the problem, solution, dashboard metrics &amp; preview.</p>
+    <h1>Data Analytics Portfolio</h1>
+    <p>Click any project title to explore the full story — problem, dataset, dashboard &amp; conclusion.</p>
   </header>
 
-  <!-- ── Category Filter ─────────────────────────────────────────── -->
-  <nav class="filter-bar" id="filterBar">
-    <button class="filter-btn active" data-cat="All">All</button>
-    <button class="filter-btn" data-cat="Power BI">Power BI</button>
-    <button class="filter-btn" data-cat="SQL">SQL</button>
-    <button class="filter-btn" data-cat="Excel">Excel</button>
-    <button class="filter-btn" data-cat="Python / ML">Python / ML</button>
-  </nav>
-
-  <!-- ── Projects Grid ────────────────────────────────────────────── -->
-  <main class="projects-grid" id="projectsGrid"></main>
-
-  <!-- ── Detail Overlay ──────────────────────────────────────────── -->
-  <div class="detail-overlay" id="detailOverlay" role="dialog" aria-modal="true" aria-label="Project detail">
-    <div class="detail-panel" id="detailPanel">
-
-      <!-- Header -->
-      <div class="detail-header" id="detailHeader">
-        <div class="detail-header-top">
-          <div class="detail-icon" id="detailIcon"></div>
-          <div class="detail-title-block">
-            <div class="detail-category" id="detailCategory"></div>
-            <div class="detail-title" id="detailTitle"></div>
-          </div>
-        </div>
-        <div class="detail-tools" id="detailTools"></div>
-        <button class="close-btn" id="closeBtn" aria-label="Close">✕</button>
-      </div>
-
-      <!-- Body -->
-      <div class="detail-body">
-
-        <!-- 1. The Problem -->
-        <div class="detail-section">
-          <div class="detail-section-label">
-            <span class="dot" style="background:#f87171;"></span>
-            The Problem
-          </div>
-          <div class="section-box story-box" id="detailProblem"></div>
-        </div>
-
-        <!-- 2. Dataset -->
-        <div class="detail-section">
-          <div class="detail-section-label">
-            <span class="dot" style="background:#fb923c;"></span>
-            Dataset
-          </div>
-          <div class="section-box" id="detailDataset"></div>
-        </div>
-
-        <!-- 3. Dashboard -->
-        <div class="detail-section">
-          <div class="detail-section-label">
-            <span class="dot" style="background:#60a5fa;"></span>
-            Dashboard
-          </div>
-          <div class="stats-grid" id="detailDashboard"></div>
-        </div>
-
-        <!-- 4. Dashboard Image -->
-        <div class="detail-image-wrap" id="detailImageWrap">
-          <img class="detail-image" id="detailImage" src="" alt="Dashboard preview"
-               onerror="this.parentElement.innerHTML = '<div class=\'image-fallback\'><span style=\'font-size:2.5rem\'>🖼️</span><span>Dashboard image not available</span></div>';" />
-        </div>
-
-        <!-- 5. Conclusion -->
-        <div class="detail-section">
-          <div class="detail-section-label">
-            <span class="dot" style="background:#34d399;"></span>
-            Conclusion
-          </div>
-          <div class="section-box" id="detailConclusion"></div>
-        </div>
-
-      </div><!-- /detail-body -->
-    </div><!-- /detail-panel -->
-  </div><!-- /detail-overlay -->
+  <!-- ── Portfolio ────────────────────────────────────────────────── -->
+  <main class="portfolio-root" id="portfolioRoot"></main>
 
   <script src="projects.js"></script>
   <script src="app.js"></script>
