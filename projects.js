@@ -9,9 +9,9 @@ const projects = [
     accent: "#22c55e",
     tools: ["Excel", "Pivot Tables", "Charts", "Slicers"],
 
-    problem: "Chicago has long struggled with crime, but city officials and community organizations lacked a clear, data-driven picture of how criminal activity had evolved over nearly a decade. Without visibility into trends by year, season, race, and crime type, resources were being allocated without evidence — and patterns that could drive smarter prevention were going unnoticed.",
+    problem: "Every year, hundreds of thousands of people move through Chicago's criminal court system — but for a long time, no one was looking at the full picture. Which charges were being filed the most? Were certain communities being disproportionately impacted? How had crime trends shifted over nearly a decade? The data existed, but it was buried in raw court records. This project set out to turn that raw data into a clear, visual story of crime in Chicago from 2014 to 2023.",
 
-    dataset: "Chicago Police Department open data portal — 585,418 criminal cases filed between 2014 and 2023. The dataset includes up to 4 charge statutes per case, demographics of the accused, filing month, and crime category. Cleaned and transformed in Excel using Pivot Tables, slicers, and dynamic charts.",
+    dataset: "Cook County Criminal Court records — 585,418 arrest and charge cases filed between 2014 and 2023. Each record contains a unique case bond number (CB_NO), arrest date and time, defendant race, and up to 4 charge statutes with full Illinois Compiled Statutes (ILCS) codes, charge descriptions, type, and felony/misdemeanor class. Cleaned, structured, and analyzed entirely in Excel using Pivot Tables, dynamic charts, and interactive slicers by race and year.",
 
     dashboard: [
       { value: "585,418", label: "Total Cases Filed" },
@@ -22,7 +22,7 @@ const projects = [
 
     image: "", // ← paste your screenshot path here
 
-    conclusion: "The analysis revealed trends in case filings from 2014 to 2023, with breakdowns by crime type, race, and month. Key patterns in seasonal spikes and charge distributions were identified, providing actionable insights for resource allocation and community-focused policy decisions.",
+    conclusion: "The analysis uncovered clear year-over-year trends in case filings from 2014 to 2023, including seasonal spikes in specific months and a breakdown of the most commonly filed ILCS charge statutes. The race slicer revealed significant demographic disparities across charge categories. These insights provide a data-driven foundation for discussions around court resource allocation, equitable policing policy, and community-based intervention programs.",
   },
 
   // ── SQL ────────────────────────────────────────────────────────────────────
