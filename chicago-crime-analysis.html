@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chicago Crime Analysis — Data Analytics Portfolio</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f0f1a;
+      --surface: #1a1a2e;
+      --surface2: #16213e;
+      --border: rgba(255,255,255,0.08);
+      --text: #e8e8f0;
+      --muted: #8888aa;
+      --accent: #22c55e;
+      --radius: 16px;
+      --transition: 0.3s ease;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    /* ── Back nav ── */
+    .back-nav {
+      padding: 24px 40px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color var(--transition);
+    }
+
+    .back-link:hover { color: var(--text); }
+
+    /* ── Page wrapper ── */
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 40px 80px;
+    }
+
+    /* ── Hero header ── */
+    .hero {
+      margin-bottom: 56px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(34,197,94,0.12);
+      border: 1px solid rgba(34,197,94,0.3);
+      color: var(--accent);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      padding: 6px 16px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .hero-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tool-tag {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.78rem;
+      padding: 4px 14px;
+      border-radius: 50px;
+    }
+
+    /* ── Section ── */
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .section-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .story-box {
+      border-left: 4px solid #f87171;
+      font-style: italic;
+      color: #d1d1e0;
+      font-size: 1.05rem;
+    }
+
+    /* ── Stats grid ── */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+    }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--accent);
+    }
+
+    .stat-value {
+      font-size: 1.8rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .stat-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* ── What we built list ── */
+    .built-list {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .built-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 20px 28px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .built-item:last-child { border-bottom: none; }
+
+    .built-icon {
+      width: 36px;
+      height: 36px;
+      background: rgba(34,197,94,0.12);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .built-text strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .built-text span {
+      font-size: 0.875rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── Dashboard image ── */
+    .image-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .image-label {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: rgba(0,0,0,0.65);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 50px;
+      z-index: 1;
+      backdrop-filter: blur(4px);
+    }
+
+    .dashboard-img {
+      width: 100%;
+      display: block;
+      max-height: 460px;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .image-placeholder {
+      width: 100%;
+      height: 260px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      color: var(--muted);
+      background: var(--surface2);
+      font-size: 0.9rem;
+    }
+
+    .image-placeholder span:first-child { font-size: 2.5rem; }
+
+    /* ── Drive button ── */
+    .drive-section {
+      margin-top: 56px;
+      text-align: center;
+      padding: 40px 32px;
+      background: var(--surface);
+      border: 1px solid rgba(34,197,94,0.25);
+      border-radius: 20px;
+    }
+
+    .drive-section p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+    }
+
+    .drive-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--accent);
+      color: #0f0f1a;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 12px;
+      transition: opacity var(--transition), transform var(--transition);
+    }
+
+    .drive-btn:hover {
+      opacity: 0.88;
+      transform: translateY(-2px);
+    }
+
+    .drive-btn svg {
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+    }
+
+    /* ── Divider ── */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 8px 0 48px;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .page, .back-nav { padding-left: 20px; padding-right: 20px; }
+      .section-box { padding: 20px; }
+      .built-item { padding: 16px 20px; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Back link -->
+  <nav class="back-nav">
+    <a href="index.html" class="back-link">
+      ← Back to Portfolio
+    </a>
+  </nav>
+
+  <div class="page">
+
+    <!-- ── Hero ── -->
+    <div class="hero">
+      <div class="hero-badge">📗 Excel Project</div>
+      <h1>Chicago Crime Analysis</h1>
+      <div class="hero-tools">
+        <span class="tool-tag">Excel</span>
+        <span class="tool-tag">Pivot Tables</span>
+        <span class="tool-tag">Charts</span>
+        <span class="tool-tag">Slicers</span>
+      </div>
+    </div>
+
+    <!-- ── The Story ── -->
+    <div class="section">
+      <div class="section-label">
+        <span class="dot" style="background:#f87171;"></span>
+        The Story
+      </div>
+      <div class="section-box story-box">
+        Every year, hundreds of thousands of people move through Chicago's criminal court system — but for a long time, no one was looking at the full picture. Which charges were being filed the most? Were certain communities being disproportionately impacted? How had crime trends shifted over nearly a decade?
+        <br><br>
+        The data existed, but it was buried in raw court records. This project set out to turn that raw data into a clear, visual story of crime in Chicago from 2014 to 2023.
+      </div>
+    </div>
+
+    <!-- ── Problem Statement ── -->
+    <div class="section">
+      <div class="section-label">
+        <span class="dot" style="background:#fb923c;"></span>
+        Problem Statement
+      </div>
+      <div class="section-box">
+        Chicago generates one of the most detailed public court datasets in the United States, yet the patterns buried within it — trends in charge types, demographic distributions, seasonal fluctuations — remain largely unexplored.
+        <br><br>
+        <strong>The core question:</strong> Can we take a raw dataset of over half a million criminal court cases and build an interactive, Excel-based dashboard that answers real questions about crime patterns in Chicago?
+      </div>
+    </div>
+
+    <!-- ── Dataset ── -->
+    <div class="section">
+      <div class="section-label">
+        <span class="dot" style="background:#a78bfa;"></span>
+        Dataset
+      </div>
+      <div class="section-box">
+        Cook County Criminal Court records — <strong>585,418 arrest and charge cases</strong> filed between 2014 and 2023. Each record contains:
+        <br><br>
+        • Unique case bond number (CB_NO)<br>
+        • Arrest date and time<br>
+        • Defendant race<br>
+        • Up to 4 charge statutes with full Illinois Compiled Statutes (ILCS) codes, charge descriptions, type, and felony/misdemeanor class
+        <br><br>
+        Cleaned, structured, and analyzed entirely in Excel.
+      </div>
+    </div>
+
+    <!-- ── Key Stats ── -->
+    <div class="section">
+      <div class="section-label">
+        <span class="dot" style="background:#60a5fa;"></span>
+        Key Numbers
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value">585,418</div>
+          <div class="stat-label">Total Cases Filed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">247,963</div>
+          <div class="stat-label">Charge 2 Cases</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">136,051</div>
+          <div class="stat-label">Charge 3 Cases</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">75,410</div>
+          <div class="stat-label">Charge 4 Cases</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── What We Created ── -->
+    <div class="section">
+      <div class="section-label">
+        <span class="dot" style="background:#22c55e;"></span>
+        What We Created
+      </div>
+      <div class="built-list">
+        <div class="built-item">
+          <div class="built-icon">📊</div>
+          <div class="built-text">
+            <strong>Interactive Excel Dashboard</strong>
+            <span>A fully interactive workbook combining all analysis, charts, and slicers into one clean, navigable dashboard.</span>
+          </div>
+        </div>
+        <div class="built-item">
+          <div class="built-icon">🔄</div>
+          <div class="built-text">
+            <strong>Pivot Tables</strong>
+            <span>Multiple pivot tables breaking down cases by year, charge type, ILCS statute, and felony/misdemeanor class.</span>
+          </div>
+        </div>
+        <div class="built-item">
+          <div class="built-icon">📈</div>
+          <div class="built-text">
+            <strong>Year-over-Year Trend Charts</strong>
+            <span>Dynamic charts showing case filing trends from 2014 to 2023, revealing seasonal spikes and long-term shifts.</span>
+          </div>
+        </div>
+        <div class="built-item">
+          <div class="built-icon">🎛️</div>
+          <div class="built-text">
+            <strong>Interactive Slicers</strong>
+            <span>Filter all charts and tables instantly by defendant race and year — no formulas needed, fully point-and-click.</span>
+          </div>
+        </div>
+        <div class="built-item">
+          <div class="built-icon">⚖️</div>
+          <div class="built-text">
+            <strong>Top Charge Statute Breakdown</strong>
+            <span>Ranked view of the most commonly filed ILCS charge statutes across all 10 years of court data.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Dashboard Preview ── -->
+    <div class="section">
+      <div class="section-label">
+        <span class="dot" style="background:#38bdf8;"></span>
+        Dashboard Preview
+      </div>
+      <div class="image-section">
+        <div class="image-label">Dashboard Preview</div>
+        <div class="image-placeholder">
+          <span>🖼️</span>
+          <span>Dashboard screenshot coming soon</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Conclusion ── -->
+    <div class="section">
+      <div class="section-label">
+        <span class="dot" style="background:#34d399;"></span>
+        Conclusion
+      </div>
+      <div class="section-box">
+        The analysis uncovered clear year-over-year trends in case filings from 2014 to 2023, including seasonal spikes in specific months and a breakdown of the most commonly filed ILCS charge statutes.
+        <br><br>
+        The race slicer revealed significant demographic disparities across charge categories. These insights provide a data-driven foundation for discussions around court resource allocation, equitable policing policy, and community-based intervention programs.
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- ── Google Drive CTA ── -->
+    <div class="drive-section">
+      <p>Want to explore the full Excel workbook — all pivot tables, charts, and interactive slicers?</p>
+      <a
+        href="https://docs.google.com/spreadsheets/d/1FFnxAmvU9acmcmGfbN4gmjpsF-ChNhe5/edit?usp=sharing&ouid=109543025331292763227&rtpof=true&sd=true"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="drive-btn"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.28 3l5.72 9.9L6.28 21H2.5L8.22 12.9 2.5 3h3.78zm5.44 0h3.78l5.72 9.9-5.72 9.9H11.72l5.72-9.9L11.72 3z"/>
+        </svg>
+        View Full Project on Google Drive
+      </a>
+    </div>
+
+  </div>
+
+</body>
+</html>
