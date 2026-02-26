@@ -5,6 +5,16 @@ function renderCards(filter) {
   const list = filter === 'All' ? projects : projects.filter(p => p.category === filter);
   grid.innerHTML = '';
 
+  if (list.length === 0) {
+    grid.innerHTML = `
+      <div style="grid-column:1/-1;text-align:center;padding:80px 24px;color:var(--muted);">
+        <div style="font-size:3rem;margin-bottom:16px;">📂</div>
+        <div style="font-size:1.1rem;font-weight:600;margin-bottom:8px;">No projects yet</div>
+        <div style="font-size:0.875rem;">Add your projects to <code>projects.js</code> to get started.</div>
+      </div>`;
+    return;
+  }
+
   list.forEach(project => {
     const card = document.createElement('article');
     card.className = 'project-card';
@@ -61,9 +71,10 @@ function openDetail(project) {
   document.getElementById('detailTools').innerHTML =
     project.tools.map(t => `<span class="detail-tool-tag">${t}</span>`).join('');
 
-  // Problem & Solution
-  document.getElementById('detailProblem').textContent  = project.problem;
-  document.getElementById('detailSolution').textContent = project.solution;
+  // Problem, Dataset & Conclusion
+  document.getElementById('detailProblem').textContent    = project.problem;
+  document.getElementById('detailDataset').textContent    = project.dataset;
+  document.getElementById('detailConclusion').textContent = project.conclusion;
 
   // Dashboard stats
   document.getElementById('detailDashboard').innerHTML = project.dashboard.map(s => `
