@@ -42,7 +42,7 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 | 📂 Project | 🧰 Tools | 📄 Description |
 |------------|----------|----------------|
 | 🚖 [Chicago Crime Analysis](https://github.com/lalithasaipasala/blinkit-dashboard) |  Excel |Examined Chicago crime data (585,418 records) to identify crime patterns, analyze trends by location and time, and highlight insights that support public-safety planning.  |
-|
+
 
 ---
 ## 🐍 Python/Machinelearning  Projects
