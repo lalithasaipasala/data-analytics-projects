@@ -71,9 +71,10 @@ function openDetail(project) {
   document.getElementById('detailTools').innerHTML =
     project.tools.map(t => `<span class="detail-tool-tag">${t}</span>`).join('');
 
-  // Problem & Solution
-  document.getElementById('detailProblem').textContent  = project.problem;
-  document.getElementById('detailSolution').textContent = project.solution;
+  // Problem, Dataset & Conclusion
+  document.getElementById('detailProblem').textContent    = project.problem;
+  document.getElementById('detailDataset').textContent    = project.dataset;
+  document.getElementById('detailConclusion').textContent = project.conclusion;
 
   // Dashboard stats
   document.getElementById('detailDashboard').innerHTML = project.dashboard.map(s => `

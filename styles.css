@@ -342,6 +342,15 @@ body {
   line-height: 1.75;
 }
 
+/* Story-style problem box — slightly larger text, italic quote feel */
+.story-box {
+  font-size: 1rem;
+  line-height: 1.85;
+  border-left: 3px solid #f87171;
+  font-style: italic;
+  color: #d1d1e0;
+}
+
 /* Dashboard stats row */
 .stats-grid {
   display: grid;
