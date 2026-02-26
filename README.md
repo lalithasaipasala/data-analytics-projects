@@ -19,7 +19,7 @@ Welcome to my curated portfolio! Below, I have categorized my projects based on 
 |------------|----------|----------------|
 | 🚖 [Uber Trip Analysis](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Uber.jpg) | Power BI, Excel | Analyzed trip volume, distance, time, and vehicle types for Brooklyn using Uber data. |
 | 🛒 [Amazon Sales Analysis](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Activation%20Dashboard.jpg) | Power BI, Excel | Sales and product analysis with YTD/QTD performance, reviews, and top categories. |
-| 💵 [Financial Complaints Overview]((https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Financial%20Complaints%20overview.jpg) | Power BI | Tracked 75K+ complaints by issue, product, resolution rate, and monthly trends. |
+| 💵 [Financial Complaints Overview](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Financial%20Complaints%20overview.jpg) | Power BI | Tracked 75K+ complaints by issue, product, resolution rate, and monthly trends. |
 | 🏥 [Healthcare Screening Analysis](https://github.com/lalithasaipasala/city-accident-analysis-excel/blob/main/Health%20Care%20.jpg) | Power BI | Dashboard showing member screening by region, ethnicity, race, and language. |
 | 🌍 [Regional Sales Dashboard](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Excel | Compared CY and PY sales across regions with profit and quantity metrics. |
 | 🎧 [Spotify Listening Insights](https://github.com/lalithasaipasala/blinkit-dashboard) | Power BI, Spotify Data | Visualized personal streaming history: albums, artists, tracks, and trends. |
